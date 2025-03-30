@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import Feedback from "./components/Feedback/Feedback";
-import Options from "./components/Options/Options";
-import Notification from "./components/Notification/Notification";
-import styles from "./App.module.css";
+import Feedback from "../Feedback/Feedback";  // Шлях до Feedback
+import Options from "../Options/Options";    // Шлях до Options
+import Notification from "../Notification/Notification";  // Шлях до Notification
+import styles from "./App.module.css";  // Шлях до стилів для App
 
 const App = () => {
   // Початковий стан для відгуків
